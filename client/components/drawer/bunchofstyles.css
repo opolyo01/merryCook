@@ -1,0 +1,120 @@
+
+	  	body, html, #main {width:100%;height:100%;}
+	  	/* make sidebar nav vertical */ 
+
+		  .navbar-default {
+		  	border:0px;
+		  	background:none;
+		  }
+		  .navbar-default li.active a {
+		  	background:none;
+		  }
+		  .sidebar-nav {
+		  	height:100%;
+		  	background:rgb(47,63,78);
+		  }
+		  .sidebar-nav .navbar .navbar-collapse {
+		    padding: 0;
+		    max-height: none;
+		  }
+		  .sidebar-nav .navbar ul {
+		    float: none;
+		  }
+		  .sidebar-nav .navbar ul:not {
+		    display: block;
+		  }
+		  .sidebar-nav .navbar li {
+		    float: none;
+		    display: block;
+		  }
+		  .sidebar-nav .navbar li a {
+		    padding-top: 34px;
+		    padding-bottom: 12px;
+		  }
+		.navbar-default .navbar-nav > li > a {
+			color:#FFFFFF!important;
+			font-size: 18px;
+			text-shadow: 2px 2px rgba(0,0,0,0.2);
+		}
+		.charactergrid {
+			width:100%;
+		}
+		.charactergrid td img {
+			width:80%;
+			margin:0 auto;
+			cursor:pointer;
+		}
+		#characterSelection td{
+			width:50%;
+			text-align:center;
+		}
+		#enemySelection td{
+			width:50%;
+			text-align:center;
+		}
+		.ht100 {
+			height:100%;
+			position:relative;
+		}
+		.hamburger {
+			cursor:pointer!important;
+			width:25px;
+			height:25px;
+			cursor:pointer;
+			position:absolute;
+			top:5px;
+			left:20px;
+			z-index:1;
+			border-radius:2px;
+		}
+		.shadow {
+		   box-shadow: inset -10px 0px 5px rgba(0,0,0,0.1);
+		}
+		div.collapsibleNav {
+			margin-left:0px;
+			opacity:1.0;
+			transition: margin-left 0.5s ease, opacity 0.5s ease;
+			overflow:hidden;
+		}
+		div.collapsibleNav.thin {
+			margin-left:-100%;
+			opacity:0.2
+		}
+		.f1 {
+			transform: rotate(0deg);
+			transition: transform 0.5s ease;
+		}
+		.f1:hover {
+		 	transform: rotate(-7deg);
+		}
+		.f2 {
+			transform: rotate(0deg);
+			transition: transform 0.5s ease;
+		}
+		.f2:hover {
+		 	transform: rotate(7deg);
+		}
+		.dogenemey {
+			margin-left:-10px!important;
+		}
+		.hamburger {
+			opacity:1.0;
+			transition: opacity 0.5s ease;
+		}
+		.hamburger.soft {
+			opacity: 0.2;
+		}
+		#characterSelection td {
+			background-color:none;
+			transition: background 0.5s ease;
+		}
+		#characterSelection td:hover {
+			background-color:rgba(124,188,230,0.4);
+		}
+		#enemySelection td {
+			background-color:none;
+			transition: background 0.5s ease;
+		}
+		#enemySelection td:hover {
+			background-color:rgba(152,211,101,0.4);
+		}
