@@ -1,7 +1,7 @@
 define(['jquery',
 	'can', 'can/map/define'],
 function($, can) {
-	var x= can.Map.extend({
+	return can.Map.extend({
 		define:{
 			time:{
 				type: "number",
@@ -20,8 +20,4 @@ function($, can) {
 			}
 		}
 	});
-
-	console.log(x);
-
-	return x;
 });

@@ -1,5 +1,5 @@
  <div class="row ht100">
- 	<img class="hamburger" src="cancomponent/drawer/hamburger.png">
+  <img class="hamburger" src="images/hamburger.png">
   <div class="col-sm-12 ht100 collapsibleNav">
     <div class="sidebar-nav shadow">
       <div class="navbar navbar-default" role="navigation">
@@ -18,13 +18,13 @@
             <li><a href="javascript:void(0);"></a></li>
             <li><a href="javascript:void(0);">Select Character</a></li>
             <li>
-				<table class="charactergrid" id="characterSelection">
-					<tr>
-						<td><img class="characterImg f1 boy" data-desc="boy" src="cancomponent/drawer/filesboy.png"></td>
-						<td><img class="characterImg f2 girl" data-desc="girl" src="cancomponent/drawer/filesgirl.png"></td>
-					</tr>
-				</table>
-			</li>
+        <table class="charactergrid" id="characterSelection">
+          <tr>
+            <td><img class="characterImg f1 boy" data-desc="boy" src="images/filesboy.png"></td>
+            <td><img class="characterImg f2 girl" data-desc="girl" src="images/filesgirl.png"></td>
+          </tr>
+        </table>
+      </li>
             <!--<li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -39,12 +39,12 @@
             </li>-->
             <li><a href="javascript:void(0);">Select Enemy</a></li>
             <li>
-				<table class="charactergrid" id="enemySelection">
-					<tr>
-						<td><img class="enemyImg f1 cat" data-desc="cat" src="cancomponent/drawer/cat.png"></td>
-						<td><img class="enemyImg f2 dog" data-desc="dog" src="cancomponent/drawer/dog.png"></td>
-					</tr>
-				</table>
+        <table class="charactergrid" id="enemySelection">
+          <tr>
+            <td><img class="enemyImg f1 cat" data-desc="cat" src="images/cat.png"></td>
+            <td><img class="enemyImg f2 dog" data-desc="dog" src="images/dog.png"></td>
+          </tr>
+        </table>
             </li>
           </ul>
         </div><!--/.nav-collapse -->

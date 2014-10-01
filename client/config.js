@@ -11,7 +11,7 @@ require.config({
 	},
 
 	paths: {
-		'bootstrap': 'lib/bootstrap/js',
+		'bootstrap': 'lib/bootstrap/dist/js/bootstrap',
 		'jquery': 'lib/jquery/dist/jquery',
 		'can': 'lib/canjs/amd/can',
 		'faker': 'lib/faker/Faker',

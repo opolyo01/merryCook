@@ -1,2 +1,10 @@
 <div id="toolbar">
 </div>
+
+<div class="row ht100">
+  <div class="col-sm-2 ht100">
+	<drawer id="drawer" state="{state}"></drawer>
+  </div>
+  <div class="col-sm-10 ht100">
+  </div>
+</div>
